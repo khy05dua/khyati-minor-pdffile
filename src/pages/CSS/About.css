@@ -1,0 +1,59 @@
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .about-content {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+
+  .grid-container {
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(4,80px);
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  
+  h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color:#171717;
+    font-size:40px;
+    font-weight: 600;
+  }
+
+  
+
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  
+}
+
+.grid-container > div img {
+  width: 100%;
+  max-width: 280px; /* Adjust the max-width as needed */
+
+  margin-bottom: 10px; /* Add some space between image and name */
+}
+
+.content{
+  padding: 0.5% 10%;
+}
